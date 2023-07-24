@@ -1,0 +1,3 @@
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles/dspinc.dir
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles/edit_cache.dir
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/PKier/OneDrive/Pulpit/DSPinC/build",
+  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/dspinc.dir/main.c.obj -c C:/Users/PKier/OneDrive/Pulpit/DSPinC/main.c",
+  "file": "C:/Users/PKier/OneDrive/Pulpit/DSPinC/main.c",
+  "output": "CMakeFiles/dspinc.dir/main.c.obj"
+},
+{
+  "directory": "C:/Users/PKier/OneDrive/Pulpit/DSPinC/build",
+  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/dspinc.dir/src/test.c.obj -c C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c",
+  "file": "C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c",
+  "output": "CMakeFiles/dspinc.dir/src/test.c.obj"
+}
+]
