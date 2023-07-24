@@ -177,6 +177,30 @@ src/test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dspinc.dir/build.make CMakeFiles/dspinc.dir/src/test.c.s
 .PHONY : src/test.c.s
 
+src/wavFile.obj: src/wavFile.c.obj
+.PHONY : src/wavFile.obj
+
+# target to build an object file
+src/wavFile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dspinc.dir/build.make CMakeFiles/dspinc.dir/src/wavFile.c.obj
+.PHONY : src/wavFile.c.obj
+
+src/wavFile.i: src/wavFile.c.i
+.PHONY : src/wavFile.i
+
+# target to preprocess a source file
+src/wavFile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dspinc.dir/build.make CMakeFiles/dspinc.dir/src/wavFile.c.i
+.PHONY : src/wavFile.c.i
+
+src/wavFile.s: src/wavFile.c.s
+.PHONY : src/wavFile.s
+
+# target to generate assembly for a file
+src/wavFile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dspinc.dir/build.make CMakeFiles/dspinc.dir/src/wavFile.c.s
+.PHONY : src/wavFile.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/test.obj"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
+	@echo "... src/wavFile.obj"
+	@echo "... src/wavFile.i"
+	@echo "... src/wavFile.s"
 .PHONY : help
 
 

@@ -97,21 +97,37 @@ CMakeFiles/dspinc.dir/src/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dspinc.dir/src/test.c.s"
 	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c -o CMakeFiles/dspinc.dir/src/test.c.s
 
+CMakeFiles/dspinc.dir/src/wavFile.c.obj: CMakeFiles/dspinc.dir/flags.make
+CMakeFiles/dspinc.dir/src/wavFile.c.obj: C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c
+CMakeFiles/dspinc.dir/src/wavFile.c.obj: CMakeFiles/dspinc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dspinc.dir/src/wavFile.c.obj"
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dspinc.dir/src/wavFile.c.obj -MF CMakeFiles/dspinc.dir/src/wavFile.c.obj.d -o CMakeFiles/dspinc.dir/src/wavFile.c.obj -c C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c
+
+CMakeFiles/dspinc.dir/src/wavFile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dspinc.dir/src/wavFile.c.i"
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c > CMakeFiles/dspinc.dir/src/wavFile.c.i
+
+CMakeFiles/dspinc.dir/src/wavFile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dspinc.dir/src/wavFile.c.s"
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c -o CMakeFiles/dspinc.dir/src/wavFile.c.s
+
 # Object files for target dspinc
 dspinc_OBJECTS = \
 "CMakeFiles/dspinc.dir/main.c.obj" \
-"CMakeFiles/dspinc.dir/src/test.c.obj"
+"CMakeFiles/dspinc.dir/src/test.c.obj" \
+"CMakeFiles/dspinc.dir/src/wavFile.c.obj"
 
 # External object files for target dspinc
 dspinc_EXTERNAL_OBJECTS =
 
 dspinc.exe: CMakeFiles/dspinc.dir/main.c.obj
 dspinc.exe: CMakeFiles/dspinc.dir/src/test.c.obj
+dspinc.exe: CMakeFiles/dspinc.dir/src/wavFile.c.obj
 dspinc.exe: CMakeFiles/dspinc.dir/build.make
 dspinc.exe: CMakeFiles/dspinc.dir/compiler_depend.ts
 dspinc.exe: CMakeFiles/dspinc.dir/linkLibs.rsp
 dspinc.exe: CMakeFiles/dspinc.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable dspinc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/PKier/OneDrive/Pulpit/DSPinC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable dspinc.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/dspinc.dir/objects.a
 	C:/MinGW/bin/ar.exe qc CMakeFiles/dspinc.dir/objects.a @CMakeFiles/dspinc.dir/objects1.rsp
 	C:/MinGW/bin/gcc.exe -g -Wl,--dependency-file,CMakeFiles/dspinc.dir/link.d -Wl,--whole-archive CMakeFiles/dspinc.dir/objects.a -Wl,--no-whole-archive -o dspinc.exe -Wl,--out-implib,libdspinc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/dspinc.dir/linkLibs.rsp

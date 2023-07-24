@@ -3,20 +3,32 @@
 
 CMakeFiles/dspinc.dir/main.c.obj: C:/Users/PKier/OneDrive/Pulpit/DSPinC/main.c \
   C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/test.h \
+  C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/wavFile.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
   C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/MinGW/x86_64-w64-mingw32/include/assert.h \
   C:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
   C:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/MinGW/x86_64-w64-mingw32/include/malloc.h \
   C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/MinGW/x86_64-w64-mingw32/include/stddef.h \
   C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
   C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
   C:/MinGW/x86_64-w64-mingw32/include/vadefs.h
 
@@ -38,6 +50,36 @@ CMakeFiles/dspinc.dir/src/test.c.obj: C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/
   C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
   C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/test.h
+
+CMakeFiles/dspinc.dir/src/wavFile.c.obj: C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  C:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/wavFile.h
 
 dspinc.exe: CMakeFiles/dspinc.dir/objects.a \
   C:/MinGW/x86_64-w64-mingw32/lib/crt2.o \
@@ -62,21 +104,37 @@ dspinc.exe: CMakeFiles/dspinc.dir/objects.a \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a
 
 
-C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
-
 C:/Users/PKier/OneDrive/Pulpit/DSPinC/main.c:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/assert.h:
 
 C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/test.h:
 
-C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a:
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h:
 
-C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h:
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/inc/wavFile.h:
 
-C:/MinGW/x86_64-w64-mingw32/include/_mingw.h:
+C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/libws2_32.a:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a:
+
+C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
@@ -94,21 +152,39 @@ C:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h:
 
+C:/MinGW/x86_64-w64-mingw32/include/errno.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/liboleaut32.a:
+
+C:/MinGW/x86_64-w64-mingw32/include/limits.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/malloc.h:
+
 C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/libmsvcrt.a:
 
 C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c:
+
+C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
 C:/MinGW/x86_64-w64-mingw32/lib/libmoldname.a:
 
 C:/MinGW/x86_64-w64-mingw32/include/stdint.h:
 
-C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl:
+C:/MinGW/x86_64-w64-mingw32/lib/libshell32.a:
+
+C:/MinGW/x86_64-w64-mingw32/lib/libole32.a:
+
+C:/MinGW/x86_64-w64-mingw32/include/stdlib.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
 
-C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c:
+C:/MinGW/x86_64-w64-mingw32/lib/libpthread.a:
+
+C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o:
 
@@ -127,14 +203,6 @@ C:/MinGW/x86_64-w64-mingw32/lib/libkernel32.a:
 C:/MinGW/x86_64-w64-mingw32/lib/libmingwex.a:
 
 C:/MinGW/x86_64-w64-mingw32/lib/libmingw32.a:
-
-C:/MinGW/x86_64-w64-mingw32/lib/libshell32.a:
-
-C:/MinGW/x86_64-w64-mingw32/lib/libole32.a:
-
-C:/MinGW/x86_64-w64-mingw32/lib/liboleaut32.a:
-
-C:/MinGW/x86_64-w64-mingw32/lib/libpthread.a:
 
 C:/MinGW/x86_64-w64-mingw32/lib/libuser32.a:
 

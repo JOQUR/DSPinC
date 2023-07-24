@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/PKier/OneDrive/Pulpit/DSPinC/main.c" "CMakeFiles/dspinc.dir/main.c.obj" "gcc" "CMakeFiles/dspinc.dir/main.c.obj.d"
   "C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/test.c" "CMakeFiles/dspinc.dir/src/test.c.obj" "gcc" "CMakeFiles/dspinc.dir/src/test.c.obj.d"
+  "C:/Users/PKier/OneDrive/Pulpit/DSPinC/src/wavFile.c" "CMakeFiles/dspinc.dir/src/wavFile.c.obj" "gcc" "CMakeFiles/dspinc.dir/src/wavFile.c.obj.d"
   "" "dspinc.exe" "gcc" "CMakeFiles/dspinc.dir/link.d"
   )
 

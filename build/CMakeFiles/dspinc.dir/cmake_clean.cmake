@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dspinc.dir/main.c.obj.d"
   "CMakeFiles/dspinc.dir/src/test.c.obj"
   "CMakeFiles/dspinc.dir/src/test.c.obj.d"
+  "CMakeFiles/dspinc.dir/src/wavFile.c.obj"
+  "CMakeFiles/dspinc.dir/src/wavFile.c.obj.d"
   "dspinc.exe"
   "dspinc.exe.manifest"
   "dspinc.pdb"
